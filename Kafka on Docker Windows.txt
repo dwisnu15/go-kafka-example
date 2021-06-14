@@ -1,0 +1,17 @@
+1. Create Kafka compose file
+2. Create docker-compose file for Kafka
+3. Run Docker 
+4. Get docker image : confluentinc/cp-zookeeper for Kafka Zookeeper,
+   and confluentinc/cp-kafka for Apache Kafka
+
+5. Start the Kafka Zookeeper
+6. After zookeeper is on, start the Apache Kafka
+7. If you want to turn off Kafka, you have to turn off the zookeeper
+	first then the Kafka
+
+8. If there is any, start your golang API or use Conduktor (Confluent)
+   to set up your producer and consumer.
+
+9. If you use Conduktor, do not forget to create topic with a correct 
+   name based on your producer
+
